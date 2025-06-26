@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbbb106e-c2b2-423e-b63f-12025486cf3a" name="Changes" comment="Add `check_balance` field to Vonage config and skip balance check if disabled">
+    <list default="true" id="fbbb106e-c2b2-423e-b63f-12025486cf3a" name="Changes" comment="Bump SMS Broker version to 3.3.0.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdm.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pdm.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +37,19 @@
     &quot;assignee&quot;: &quot;JuliusKoenig&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JuliusKoenig/sms-broker.git",
-    "accountId": "8abec109-5513-45b1-9b10-023e6808f11c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JuliusKoenig/sms-broker.git&quot;,
+    &quot;accountId&quot;: &quot;8abec109-5513-45b1-9b10-023e6808f11c&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/sms_broker/cli.py" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -63,42 +61,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.--info.executor": "Debug",
-    "Python.__main__.executor": "Debug",
-    "Python.admin.executor": "Debug",
-    "Python.init-db.executor": "Debug",
-    "Python.listener.executor": "Debug",
-    "Python.serve.executor": "Debug",
-    "Python.settings.executor": "Debug",
-    "Python.test_api_thread.executor": "Debug",
-    "Python.worker.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Julius/CurrentWork/sms-broker/src/sms_broker/statics",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.--info.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.__main__.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.admin.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.init-db.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.listener.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.serve.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.settings.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.test_api_thread.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.worker.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Julius/CurrentWork/sms-broker/src/sms_broker/statics&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ],
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Julius\CurrentWork\sms-broker\src\sms_broker\statics" />
@@ -113,7 +111,7 @@
       <recent name="$PROJECT_DIR$/src/kds_sms_server/server" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.listener">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="--info" type="PythonConfigurationType" factoryName="Python">
       <module name="sms-broker" />
       <option name="ENV_FILES" value="" />
@@ -294,12 +292,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Python.--info" />
       <item itemvalue="Python.--version" />
       <item itemvalue="Python.init-db" />
-      <item itemvalue="Python.worker" />
       <item itemvalue="Python.listener" />
+      <item itemvalue="Python.worker" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
@@ -310,8 +308,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
       </set>
     </attachedChunks>
   </component>
@@ -337,39 +335,9 @@
       <workItem from="1749466173072" duration="379000" />
       <workItem from="1749548159021" duration="647000" />
       <workItem from="1749562042580" duration="1345000" />
-      <workItem from="1750409103187" duration="7701000" />
-    </task>
-    <task id="LOCAL-00025" summary="Add IntelliJ IDEA project configuration files to support SQLite setup and custom run configurations.">
-      <option name="closed" value="true" />
-      <created>1749100291288</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1749100291288</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Refactor `ApiServer` initialization to improve code readability.">
-      <option name="closed" value="true" />
-      <created>1749100301142</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1749100301142</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Introduce `UiServer`: add a UI server implementation with configuration, views, and admin interface.">
-      <option name="closed" value="true" />
-      <created>1749100830669</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1749100830669</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Extend functionality of `UiServer`: implement SMS views and actions, add IP handling, and enhance exception management.">
-      <option name="closed" value="true" />
-      <created>1749103884662</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1749103884662</updated>
+      <workItem from="1750409103187" duration="8450000" />
+      <workItem from="1750660030242" duration="625000" />
+      <workItem from="1750779443824" duration="49000" />
     </task>
     <task id="LOCAL-00029" summary="Add HTML templates for `UiServer` and integrate template directory validation.">
       <option name="closed" value="true" />
@@ -731,7 +699,39 @@
       <option name="project" value="LOCAL" />
       <updated>1750416112343</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Update `wiederverwendbar` to version 0.9.1 and adjust dependencies accordingly.">
+      <option name="closed" value="true" />
+      <created>1750417148261</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1750417148261</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Update IntelliJ IDEA workspace configuration: adjust run configurations, Kubernetes settings, and coverage details.">
+      <option name="closed" value="true" />
+      <created>1750417157004</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1750417157004</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Adjust layout template: replace `container-xl` with `container` and set max-width to 100%.">
+      <option name="closed" value="true" />
+      <created>1750417163088</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1750417163088</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Bump SMS Broker version to 3.3.0.">
+      <option name="closed" value="true" />
+      <created>1750417288318</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1750417288318</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,7 +742,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -750,10 +756,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Update `.gitignore`: exclude PDM Python environment file (`.pdm-python`)." />
-    <MESSAGE value="Update PyPi project URL in GitHub Actions workflow configuration." />
-    <MESSAGE value="Renaming Project to sms-broker" />
-    <MESSAGE value="Add project logo." />
     <MESSAGE value="Update README.md with new logo and rebranded project name to `sms-broker`." />
     <MESSAGE value="Rename project file to align with rebranded name `sms-broker`." />
     <MESSAGE value="Update `settings_example.json`: remove unnecessary success messages, add session secret keys, switch database to SQLite, and add Teltonika modem configuration." />
@@ -775,7 +777,11 @@
     <MESSAGE value="Improve logging in Teltonika gateway: add debug log for successful ping and warning log for unsuccessful ping." />
     <MESSAGE value="Improve logging in Vonage gateway: add detailed debug and warning logs for balance checks." />
     <MESSAGE value="Add `check_balance` field to Vonage config and skip balance check if disabled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add `check_balance` field to Vonage config and skip balance check if disabled" />
+    <MESSAGE value="Update `wiederverwendbar` to version 0.9.1 and adjust dependencies accordingly." />
+    <MESSAGE value="Update IntelliJ IDEA workspace configuration: adjust run configurations, Kubernetes settings, and coverage details." />
+    <MESSAGE value="Adjust layout template: replace `container-xl` with `container` and set max-width to 100%." />
+    <MESSAGE value="Bump SMS Broker version to 3.3.0." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bump SMS Broker version to 3.3.0." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,7 +808,7 @@
     <SUITE FILE_PATH="coverage/sms_broker$worker.coverage" NAME="worker Coverage Results" MODIFIED="1750415962583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kds_sms_server$__main__.coverage" NAME="serve Coverage Results" MODIFIED="1747164167285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kds_sms_server$admin.coverage" NAME="admin Coverage Results" MODIFIED="1749100378783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sms_broker$listener.coverage" NAME="listener Coverage Results" MODIFIED="1750416859974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sms_broker$listener.coverage" NAME="listener Coverage Results" MODIFIED="1750416918125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kds_sms_server$serve.coverage" NAME="serve Coverage Results" MODIFIED="1749050994537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kds_sms_server$test_api_thread.coverage" NAME="test_api_thread Coverage Results" MODIFIED="1749019490091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/sms_server$listener.coverage" NAME="listener Coverage Results" MODIFIED="1749213703023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
